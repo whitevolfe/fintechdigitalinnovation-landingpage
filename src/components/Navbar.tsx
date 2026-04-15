@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X, MessageCircle } from 'lucide-react';
 import fintechLogo from '@/assets/fintech-digital-innologo.png';
+import { Link } from 'react-router-dom';
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +19,7 @@ export function Navbar() {
     <nav className='fixed top-0 left-0 right-0 z-50 bg-primary/95 backdrop-blur-md border-b border-border/10'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='flex items-center justify-between h-16'>
-          <a href='#' className='flex items-center space-x-3'>
+          <Link to='/' className='flex items-center space-x-3'>
             <img
               src={fintechLogo}
               alt='Fintech Digital Innovation'
@@ -27,7 +28,7 @@ export function Navbar() {
             <span className='text-xl font-bold text-primary-foreground tracking-tight'>
               <span className='text-gold'>Fintech Digital Innovation</span>
             </span>
-          </a>
+          </Link>
 
           <div className='hidden md:flex items-center gap-8'>
             {navLinks.map((link) => (
