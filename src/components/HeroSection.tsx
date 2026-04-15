@@ -58,7 +58,7 @@ export function HeroSection() {
           </Button>
           <Button variant='heroOutline' size='xl' asChild>
             <a
-              href='https://calendly.com'
+              href='https://calendly.com/fintechdigital1/30min'
               target='_blank'
               rel='noopener noreferrer'
             >

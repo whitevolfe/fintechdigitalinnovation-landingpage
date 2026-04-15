@@ -31,7 +31,7 @@ export function FinalCTASection() {
           <div className='mt-10 flex flex-col sm:flex-row items-center justify-center gap-4'>
             <Button variant='hero' size='xl' asChild>
               <a
-                href='https://calendly.com'
+                href='https://calendly.com/fintechdigital1/30min'
                 target='_blank'
                 rel='noopener noreferrer'
               >
